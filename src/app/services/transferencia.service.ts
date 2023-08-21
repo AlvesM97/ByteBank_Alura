@@ -8,7 +8,7 @@ import { Observable } from 'rxjs';
 })
 export class TransferenciaService {
   private listaTransferencia: any[] | undefined;
-  private url = 'http://localhost:3000/transferencias';
+  private url = 'https://bytebank-gustavomalves.netlify.app';
 
   constructor(private httpClient: HttpClient) {
     this.listaTransferencia = [];
