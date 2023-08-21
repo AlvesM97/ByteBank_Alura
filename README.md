@@ -2,7 +2,7 @@
 
 Nesse projeto foi feito um sistema basico de transferencia e extrato com base no curso Alura
 
-Para inicializar o banco local é nescessario:
+Para inicializar o banco local (JSON Server) é nescessario:
  1 - npm install -g json-server
  2 - cd dados (entre na pasta com os dados do banco)
  3 - json-server --watch db.json
